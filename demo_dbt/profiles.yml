@@ -1,0 +1,10 @@
+dbt-clickhouse:
+  target: dev
+  outputs:
+    dev:
+      type: clickhouse
+      schema: dbt-database
+      host: localhost
+      port: 9000
+      user: default
+      password:
