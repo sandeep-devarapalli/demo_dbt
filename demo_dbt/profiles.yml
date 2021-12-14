@@ -4,7 +4,7 @@ dbt-clickhouse:
     dev:
       type: clickhouse
       schema: dbt
-      host: 0.0.0.0
+      host: localhost
       port: 9000
       user: default
       password:
