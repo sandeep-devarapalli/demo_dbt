@@ -3,7 +3,7 @@ dbt-clickhouse:
   outputs:
     dev:
       type: clickhouse
-      schema: dbt-database
+      schema: dbt
       host: localhost
       port: 9000
       user: default
